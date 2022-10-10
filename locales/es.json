@@ -549,6 +549,13 @@
       "postal_code": "RUT (Sin puntos ni guion)",
       "postcode": "RUT (Sin puntos ni guion)",
       "pincode": "RUT (Sin puntos ni guion)"
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "En Stock"
+        }
+      }
     }
   },
   "socialshopwave": {
