@@ -565,7 +565,8 @@
       "shipping_errors": {
         "shipping_method_not_available": "Tu carrito se ha actualizado y los productos que agregaste no pueden enviarse a tu dirección. Elimina los artículos para completar tu pedido.",
         "shipping_method_not_available_generic": {
-          "other": "Algunos productos en tu carrito no se pueden enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo."
+          "other": "Algunos productos en tu carrito no se pueden enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo.",
+          "many": "Algunos productos en tu carrito no se pueden enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo."
         }
       }
     },
