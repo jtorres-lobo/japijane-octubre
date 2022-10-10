@@ -563,7 +563,10 @@
         "subscription_agreement_blank": "Para comprar una suscripción, debes guardar tus datos de pago. Para continuar, confirma que estás de acuerdo o elimina los productos de suscripción de tu pedido."
       },
       "shipping_errors": {
-        "shipping_method_not_available": "Tu carrito se ha actualizado y los productos que agregaste no pueden enviarse a tu dirección. Elimina los artículos para completar tu pedido."
+        "shipping_method_not_available": "Tu carrito se ha actualizado y los productos que agregaste no pueden enviarse a tu dirección. Elimina los artículos para completar tu pedido.",
+        "shipping_method_not_available_generic": {
+          "other": "Algunos productos en tu carrito no se pueden enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo."
+        }
       }
     },
     "addresses": {
