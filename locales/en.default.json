@@ -17,17 +17,6 @@
     }
   },
   "general": {
-    "country": {
-      "dropdown_label": "Country",
-      "submit_button_label": "Update country"
-    },
-    "language": {
-      "dropdown_label": "Language",
-      "submit_button_label": "Update language"
-    },
-    "cross_sell": {
-      "title_html": "Suggested add-on: <span class=\"cross-sell__product-title\">{{ product }}</span>"
-    },
     "breadcrumbs": {
       "home": "Home",
       "collections": "Collections"
@@ -154,7 +143,7 @@
   "footer": {
     "general": {
       "copyright_html": "Copyright &copy; {{ year }} {{ shop_name }}.",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">Superstore Theme by Pixel Union</a>.",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">Superstore Theme by Pixel Union<\/a>.",
       "follow_us": "Follow us"
     }
   },
@@ -193,19 +182,17 @@
       "subtotal": "Subtotal",
       "enter_order_note": "Enter a gift note or special delivery instructions below:",
       "special_instructions": "Special instructions",
+      "shipping_at_checkout": "Shipping & taxes calculated at checkout",
+      "taxes_at_checkout": "Taxes calculated at checkout",
       "cart_empty": "Your cart is empty",
-      "stock_limit": "You can only have {{ quantity }} {{ title }} in your cart.",
-      "tax_and_shipping": "Taxes and shipping calculated at checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
-      "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout."
+      "stock_limit": "You can only have {{ quantity }} {{ title }} in your cart."
     },
     "shipping": {
       "calculate_shipping": "Calculate Shipping",
       "hide_shipping_calculator": "Hide shipping calculator",
       "country": "Country",
       "province": "Province",
-      "zip": "Zip / Postal Code",
+      "zip": "Zip \/ Postal Code",
       "calculating": "Calculating",
       "multiple_rates": "We found {{ number_of_rates }} shipping rates available for {{ address }}, starting at {{ rate }}.",
       "one_rate": "We found one shipping rate available for {{ address }}.",
@@ -240,10 +227,10 @@
       "password": "Password",
       "repeat_password": "Repeat password",
       "phone": "Phone",
-      "province": "State/Province",
+      "province": "State\/Province",
       "set_default": "Set default",
       "submit": "Submit",
-      "zip": "Zip/Postal Code"
+      "zip": "Zip\/Postal Code"
     },
     "account": {
       "title": "My Account",
@@ -376,9 +363,7 @@
         "other": "Filters ({{ count }})"
       },
       "remove_filter": "Remove filter",
-      "remove_all": "Remove all filters",
-      "price_from": "From",
-      "price_to": "To"
+      "remove_all": "Remove all filters"
     },
     "sort_by": {
       "title": "Sort by"
@@ -398,7 +383,7 @@
     "general": {
       "by_vendor": "by {{ vendor }}",
       "by_vendor_html": "by {{ vendor_link }}",
-      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "Related products",
       "customer_reviews_title": "Customer Reviews",
       "zoom": "Click to expand",
@@ -418,13 +403,12 @@
       "price": {
         "original": "Original Price",
         "current": "Current Price",
-        "range_html": "<span class=\"price--label\">from</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">from<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },
     "buttons": {
-      "show_more": "Show more",
       "quick_shop": "Quick shop",
       "add_to_cart": "Add to cart",
       "choose_options": "Choose options",
@@ -512,6 +496,122 @@
       "tweet_html": "Connect your Twitter account to engage customers on and off your site!",
       "username": "username",
       "time": "8 hours ago"
+    }
+  },
+  "socialshopwave": {
+    "log_in": "Ingresar",
+    "log_in_to_account": "Ingresar a tu cuenta",
+    "cancel": "Cancelar",
+    "create_account": "Crear una cuenta",
+    "sign_up": "Regístrate",
+    "not_created_customer_on_shopify": "Cliente no creado en Shopify",
+    "create_your_account": "Crear tu cuenta",
+    "my_orders": "Mis ordenes",
+    "logout": "Salir",
+    "faved": "Agregado al wishlist",
+    "fave": "Agregar al wishlist",
+    "unfave": "Remover de la wishlist",
+    "fave_choose_variant": "Elegir opciones ",
+    "add_to_cart": "Agregar al carrito",
+    "share": "Compartir",
+    "sharing": "Publicando...",
+    "write_a_review": "Escribe una reseña",
+    "quantity_review2": "{{ ssw_count_rate }} Reseña",
+    "quantity_reviews2": "{{ ssw_count_rate }} Reseñas",
+    "quantity_review": "{{ ssw_count_rate }} reseña",
+    "quantity_reviews": "{{ ssw_count_rate }} reseñas",
+    "view_cart": "Ver carrito",
+    "my_faves": "Mi Wishlist",
+    "close": "Cerrar",
+    "user_commented_product_html": "{{ user_link }} comentó {{ product_link }}",
+    "user_faved_product_html": "{{ user_link }} agregado {{ product_link }} a la wishlist",
+    "user_reviewed_product_html": "{{ user_link }} reseñado {{ product_link }}",
+    "adding_to_cart": "Agregando...",
+    "sold_out": "Agotado",
+    "ask_your_friends": "Pedir consejo",
+    "description": "Descripción",
+    "reviews": "Reseñas",
+    "view_profile": "Ver perfil",
+    "edit_profile": "Editar perfil",
+    "sign_in_facebook": "Ingresar con Facebook",
+    "social_login_facebook": "Continua con Facebook",
+    "sign_in_twitter": "Ingresar con Twitter",
+    "social_login_twitter": "Continua con Twitter",
+    "sign_in_gplus": "Ingresar con Google",
+    "social_login_gplus": "Continua con Google",
+    "sign_in_yahoo": "Ingresar con Yahoo",
+    "social_login_yahoo": "Continua con Yahoo",
+    "sign_in_tumblr": "Ingresar con Tumblr",
+    "social_login_tumblr": "Continua con Tumblr",
+    "sign_in_instagram": "Ingresar con Instagram",
+    "social_login_instagram": "Continua con Instagram",
+    "sign_in_amazon": "Ingresar con Amazon",
+    "social_login_amazon": "Continua con Amazon",
+    "social_login_line": "Continua con Line",
+    "sign_in_line": "Ingresar con Line",
+    "social_login_simple": "Correo",
+    "ask_question": "Haz una pregunta",
+    "quantity_question": "{{ ssw_question_count }} pregunta respondida",
+    "quantity_questions": "{{ ssw_question_count }} preguntas respondidas",
+    "email_address": "Tu correo",
+    "password": "Contraseña",
+    "forgot_password": "¿Se te olvidó tu contraseña?",
+    "give_a_title_for_review": "Dar un título para reseñar",
+    "leaving_review": "Publicando...",
+    "leave_review": "Publicar",
+    "share_button": "Publicar",
+    "fave_view_product": "Ver Producto",
+    "fave_options": "Opciones {{ option_title }}",
+    "questions": "Preguntas",
+    "go_to_wishlist_page": "Go to wishlist page",
+    "list_name_limit": "You have exceeded the character limit",
+    "review_token_expired": "You're late. The link is expired!",
+    "view_on_instagram": "View on Instagram",
+    "login_required_to_review": "Inicia sesión para dejar tu opinión"
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
     }
   }
 }
