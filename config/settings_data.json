@@ -133,6 +133,7 @@
     "social_youtube": "https:\/\/www.youtube.com\/user\/japijane",
     "preconnect_facebook": true,
     "preconnect_google": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/Logo_Japi_Jane_Blanco.png",
     "checkout_body_background_color": "#fae0da",
     "checkout_accent_color": "#928ebd",
     "checkout_button_color": "#3e3d54",
