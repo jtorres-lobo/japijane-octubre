@@ -742,5 +742,12 @@
         "success": "Gracias por suscribirte 💕"
       }
     }
+  },
+  "customer_accounts": {
+    "B2B": {
+      "location_selection": {
+        "description": "Si ya tienes productos en el carrito, el cambio de sucursal puede afectar a los precios y las cantidades del carrito."
+      }
+    }
   }
 }
