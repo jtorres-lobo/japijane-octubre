@@ -536,7 +536,9 @@
       "field_errors": {
         "address_zip_blank": "Escribe tu RUT aquí",
         "address_company_blank": "Introduce tu RUT",
-        "address_city_blank": "El dato de \"Comuna\" es OBLIGATORIO."
+        "address_city_blank": "El dato de \"Comuna\" es OBLIGATORIO.",
+        "physical_gift_card_invalid_quantity": "Las líneas de productos de tarjetas de regalo físicas deben tener una cantidad que coincida con la cantidad de códigos de tarjetas de regalo.",
+        "physical_gift_card_duplicate_code": "La línea de producto de la tarjeta de regalo física contiene un código duplicado."
       },
       "shipping": {
         "no_rates_for_cart_or_destination_notice": "Seleccionaste un producto sin stock para despacho, por favor revisa tu carrito.",
@@ -556,6 +558,12 @@
       "payment": {
         "mor_disclaimer_html": "Al hacer clic abajo y completar el pedido, aceptas la compra de los productos desde Global-e como comerciante oficial de la transacción, de acuerdo con los <a class=\"link--small\" data-modal=\"true\" data-title-text=\"{{ mor_terms }}\" href=\"{{ terms_href }}\">Términos y condiciones<\/a> y la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"{{ privacy_policy }}\" href=\"{{ policy_href }}\">Política de privacidad<\/a> de Global-e. Global-e es un proveedor internacional de servicios de logística de {{ shop_name }}.",
         "purchase_options_agreement_label": "Entiendo que uno o más productos de mi carrito son una compra diferida o recurrente. Al continuar, acepto la {{ cancellation_policy_label }} y autorizo a realizar cargos en mi forma de pago según los precios, la frecuencia y las fechas indicadas en esta página hasta que se prepare mi pedido o lo cancele, si está permitido."
+      },
+      "payment_errors": {
+        "subscription_agreement_blank": "Para comprar una suscripción, debes guardar tus datos de pago. Para continuar, confirma que estás de acuerdo o elimina los productos de suscripción de tu pedido."
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Tu carrito se ha actualizado y los productos que agregaste no pueden enviarse a tu dirección. Elimina los artículos para completar tu pedido."
       }
     },
     "addresses": {
