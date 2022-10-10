@@ -615,6 +615,10 @@
         "items_changed": "Se han cambiado uno o más productos",
         "product_sold_out": "El producto '{{ name }}' ya está agotado.",
         "digital_product_not_available_for_company_locations": "Este producto no se puede agregar a un pedido B2B"
+      },
+      "tags": {
+        "add_articles": "Refinar búsqueda a los productos que también tienen la etiqueta {{ tag }}",
+        "remove_articles": "Ampliar búsqueda a los productos que no están etiquetados con {{ tag }}"
       }
     }
   },
@@ -747,6 +751,32 @@
     "B2B": {
       "location_selection": {
         "description": "Si ya tienes productos en el carrito, el cambio de sucursal puede afectar a los precios y las cantidades del carrito."
+      }
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "items": "productos"
+        },
+        "items": {
+          "one": "{{count}} producto",
+          "other": "{{count}} producto",
+          "many": "{{count}} producto"
+        }
+      },
+      "order_status": {
+        "preparing_for_shipping_description": "Estos productos se están preparando para su envío.",
+        "ready_for_pickup_description": "Estos productos están listos para retiro",
+        "picked_up_description": "Estos productos se retiraron"
+      }
+    },
+    "order_details": {
+      "hide_items": "Ocultar productos",
+      "show_items": "Mostrar productos",
+      "summary_list_title_accessibility_label": "Productos del pedido",
+      "pagination": {
+        "load_more_accessibility_label": "Cargar más productos",
+        "loading_accessibility_label": "Cargando Productos"
       }
     }
   }
