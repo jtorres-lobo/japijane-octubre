@@ -569,7 +569,24 @@
           "many": "Algunos productos en tu carrito no se pueden enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo."
         },
         "shipping_method_not_available_updated": {
-          "one": "El producto que agregaste no se puede enviar a tu ubicación. Elimínalo para completar el pago, o ponte en contacto con la tienda."
+          "one": "El producto que agregaste no se puede enviar a tu ubicación. Elimínalo para completar el pago, o ponte en contacto con la tienda.",
+          "other": "Uno o más productos que agregaste no se pueden enviar a tu ubicación. Elimínalos para completar el pago, o ponte en contacto con la tienda.",
+          "many": "Uno o más productos que agregaste no se pueden enviar a tu ubicación. Elimínalos para completar el pago, o ponte en contacto con la tienda."
+        }
+      },
+      "thank_you": {
+        "re-order": "Pedir de nuevo los mismos productos",
+        "unfulfilled_items_description": "Actualmente estamos preparando estos productos para el envío.",
+        "fulfillment": {
+          "fulfilled_table_title": "Productos en este envío",
+          "unfulfilled_table_title": "Productos en preparación "
+        }
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Comprar {{ product_name }} y {{ count }} producto más",
+          "other": "Comprar {{ product_name }} y {{ count }} producto más",
+          "many": "Comprar {{ product_name }} y {{ count }} producto más"
         }
       }
     },
@@ -584,6 +601,20 @@
         "value": {
           "in_stock": "En Stock"
         }
+      }
+    },
+    "notices": {
+      "order": {
+        "cancel_reason": {
+          "inventory": "producto no disponibles"
+        }
+      },
+      "cart": {
+        "too_many_line_items_error": "El carrito no puede contener más de {{ max }} productos.",
+        "stock_problems_html": "Uno o más productos ya no están disponibles. Hemos actualizado tu <a href='{{ link }}'>carrito<\/a>.",
+        "items_changed": "Se han cambiado uno o más productos",
+        "product_sold_out": "El producto '{{ name }}' ya está agotado.",
+        "digital_product_not_available_for_company_locations": "Este producto no se puede agregar a un pedido B2B"
       }
     }
   },
