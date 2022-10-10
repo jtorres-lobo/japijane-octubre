@@ -554,7 +554,8 @@
         "items_unavailable_notice": "Algunos productos no se encuentran disponibles. Se ha actualizado la cesta de compra."
       },
       "payment": {
-        "mor_disclaimer_html": "Al hacer clic abajo y completar el pedido, aceptas la compra de los productos desde Global-e como comerciante oficial de la transacción, de acuerdo con los <a class=\"link--small\" data-modal=\"true\" data-title-text=\"{{ mor_terms }}\" href=\"{{ terms_href }}\">Términos y condiciones<\/a> y la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"{{ privacy_policy }}\" href=\"{{ policy_href }}\">Política de privacidad<\/a> de Global-e. Global-e es un proveedor internacional de servicios de logística de {{ shop_name }}."
+        "mor_disclaimer_html": "Al hacer clic abajo y completar el pedido, aceptas la compra de los productos desde Global-e como comerciante oficial de la transacción, de acuerdo con los <a class=\"link--small\" data-modal=\"true\" data-title-text=\"{{ mor_terms }}\" href=\"{{ terms_href }}\">Términos y condiciones<\/a> y la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"{{ privacy_policy }}\" href=\"{{ policy_href }}\">Política de privacidad<\/a> de Global-e. Global-e es un proveedor internacional de servicios de logística de {{ shop_name }}.",
+        "purchase_options_agreement_label": "Entiendo que uno o más productos de mi carrito son una compra diferida o recurrente. Al continuar, acepto la {{ cancellation_policy_label }} y autorizo a realizar cargos en mi forma de pago según los precios, la frecuencia y las fechas indicadas en esta página hasta que se prepare mi pedido o lo cancele, si está permitido."
       }
     },
     "addresses": {
