@@ -160,13 +160,13 @@
     },
     "comments": {
       "title": "Comentarios",
-      "name": "Su nombre",
+      "name": "Tu nombre",
       "email": "Correo electrónico",
       "message": "Mensaje",
       "submit": "Publicar comentario",
       "moderated": "Los comentarios deben ser aprobados antes de aparecer",
-      "success": "¡Muy bien! Su comentario se publicó correctamente.",
-      "success_moderated": "¡Muy bien! Recibimos su comentario y será revisado en breve.",
+      "success": "¡Muy bien! Tu comentario se publicó correctamente.",
+      "success_moderated": "¡Muy bien! Recibimos tu comentario y será revisado en breve.",
       "author_html": "{{ author }} - {{ date }}",
       "leave_comment": "Dejar un comentario",
       "required_fields": "* Campos requeridos"
@@ -174,7 +174,7 @@
   },
   "cart": {
     "general": {
-      "your_cart": "Su carrito",
+      "your_cart": "Tu carrito",
       "continue_shopping": "Seguir comprando",
       "price": "Precio",
       "quantity": "Cant.",
@@ -184,8 +184,8 @@
       "special_instructions": "Instrucciones especiales",
       "shipping_at_checkout": "El envío se calculara en el siguiente paso",
       "taxes_at_checkout": "Impuestos calculados en el proceso de pago",
-      "cart_empty": "Su carrito está vacío",
-      "stock_limit": "Solo puede tener {{ quantity }} {{ title }} en su carrito."
+      "cart_empty": "Tu carrito está vacío",
+      "stock_limit": "Solo puede tener {{ quantity }} {{ title }} en tu carrito."
     },
     "shipping": {
       "calculate_shipping": "Calcular el envío",
@@ -198,9 +198,9 @@
       "one_rate": "Encontramos una tarifa de envío disponible para {{ address }}.",
       "no_rates": "Lo sentimos, no hacemos envíos a este destino.",
       "rate_value": "{{ rate_title }} en {{ rate }}",
-      "no_shipping_required": "Su carrito no necesita envío.",
+      "no_shipping_required": "Tu carrito no necesita envío.",
       "shipment_too_heavy": "Lo sentimos, pero este envío es demasiado pesado para enviarse.",
-      "error_general": "Lo sentimos, no podemos calcular su envío en este momento."
+      "error_general": "Lo sentimos, no podemos calcular tu envío en este momento."
     }
   },
   "contact": {
@@ -302,16 +302,16 @@
       "additional_notes": "Otras notas"
     },
     "recover_password": {
-      "title": "Restablecer su contraseña",
+      "title": "Restablece tu contraseña",
       "cancel": "Cancelar",
-      "subtitle": "Le enviaremos un correo electrónico para restablecer su contraseña.",
+      "subtitle": "Te enviaremos un correo electrónico para restablecer tu contraseña.",
       "success": "Le enviamos un correo electrónico con un enlace para actualizar su contraseña."
     },
     "register": {
       "title": "Crear cuenta",
       "submit": "Crear",
       "returning_customer": "¿Cliente registrado?",
-      "success": "Le enviamos un correo electrónico, haga clic en el enlace incluido para verificar su dirección de correo electrónico."
+      "success": "Le enviamos un correo electrónico, haga clic en el enlace incluido para verificar tu dirección de correo electrónico."
     },
     "reset_password": {
       "title": "Restablecer contraseña",
@@ -349,7 +349,7 @@
       "log_in": "Ingrese aquí."
     },
     "mailing_list": {
-      "your_email": "Su correo electrónico",
+      "your_email": "Tu correo electrónico",
       "submit": "Enviar"
     },
     "social": {
@@ -376,7 +376,7 @@
     },
     "no_results": {
       "empty": "Esta colección está vacía",
-      "tags_empty": "No hay productos que coincidan con su búsqueda"
+      "tags_empty": "No hay productos que coincidan con tu búsqueda"
     }
   },
   "product": {
@@ -430,7 +430,7 @@
       "form_title": "Notificarme cuando vuelva a estar disponible",
       "submit": "Envíame un correo electrónico cuando esté disponible",
       "message": "Notifíqueme cuando {{product}} esté disponible - {{url}}",
-      "success": "Gracias. Su notificación ha sido registrada.",
+      "success": "Gracias. Tu notificación ha sido registrada.",
       "error": "Se requiere una dirección de correo electrónico válida."
     },
     "media": {
@@ -439,7 +439,7 @@
   },
   "add_to_cart_banner": {
     "general": {
-      "product_added": "Añadido a su carrito:",
+      "product_added": "Añadido a tu carrito:",
       "sub_total": "Subtotal del carrito",
       "view_cart_html": "Ver carrito ({{ count }})",
       "checkout": "Terminar Pedido"
@@ -493,7 +493,7 @@
     },
     "twitter": {
       "title": "Cuenta de Twitter",
-      "tweet_html": "¡Conecte su cuenta de Twitter para atraer clientes dentro y fuera de su sitio!",
+      "tweet_html": "¡Conecte su cuenta de Twitter para atraer clientes dentro y fuera de tu sitio!",
       "username": "nombre de usuario",
       "time": "Hace 8 horas"
     }
@@ -542,6 +542,11 @@
       },
       "delivery_options": {
         "pick_up_in_twenty_four_hours": "Normalmente listo en 24 hrs hábiles"
+      },
+      "marketing": {
+        "unsubscribe": {
+          "title": "Has cancelado tu suscripción "
+        }
       }
     },
     "addresses": {
