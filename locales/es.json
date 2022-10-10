@@ -519,7 +519,8 @@
         "gift_card_savings_notice": "Después de {{ gift_card_amount }} en Gift Cards",
         "gift_card_ending": "Gift Card que termina en {{ last_characters }}",
         "discount_and_gift_card_savings_notice": "Después de {{ discount_amount }} de descuento y {{ gift_card_amount }} en Gift Cards",
-        "cart_does_not_meet_discount_requirements_notice": "El código de descuento <strong style=\"text-transform:uppercase\">{{ code }}<\/strong> no es válido para los productos de tu carrito"
+        "cart_does_not_meet_discount_requirements_notice": "El código de descuento <strong style=\"text-transform:uppercase\">{{ code }}<\/strong> no es válido para los productos de tu carrito",
+        "scroll_order_summary": "Desplázate para ver más productos"
       },
       "contact": {
         "company_label": "RUT",
@@ -551,6 +552,9 @@
       },
       "stock": {
         "items_unavailable_notice": "Algunos productos no se encuentran disponibles. Se ha actualizado la cesta de compra."
+      },
+      "payment": {
+        "mor_disclaimer_html": "Al hacer clic abajo y completar el pedido, aceptas la compra de los productos desde Global-e como comerciante oficial de la transacción, de acuerdo con los <a class=\"link--small\" data-modal=\"true\" data-title-text=\"{{ mor_terms }}\" href=\"{{ terms_href }}\">Términos y condiciones<\/a> y la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"{{ privacy_policy }}\" href=\"{{ policy_href }}\">Política de privacidad<\/a> de Global-e. Global-e es un proveedor internacional de servicios de logística de {{ shop_name }}."
       }
     },
     "addresses": {
