@@ -149,14 +149,14 @@
   },
   "blog": {
     "general": {
-      "empty_blog": "Lo sentimos, no hay artículos publicados para este blog",
+      "empty_blog": "Lo sentimos, no hay productos publicados para este blog",
       "read_more": "Leer ahora",
       "see_more": "Ver más"
     },
     "article": {
       "filed_in": "Archivado en:",
-      "previous_article": "Artículo anterior",
-      "next_article": "Artículo siguiente"
+      "previous_article": "Producto anterior",
+      "next_article": "Producto siguiente"
     },
     "comments": {
       "title": "Comentarios",
@@ -291,7 +291,7 @@
       "shipping": "Envío ({{ shipping_method }})",
       "tax": "Impuesto ({{ title }} {{ rate }}%)",
       "product": "Producto",
-      "item": "Artículo",
+      "item": "Producto",
       "sku": "SKU",
       "price": "Precio",
       "quantity": "Cantidad",
@@ -472,7 +472,7 @@
   },
   "onboarding": {
     "article": {
-      "title": "Título del artículo",
+      "title": "Título del Producto",
       "author_name": "Nombre del autor"
     },
     "collection": {
@@ -518,7 +518,8 @@
         "gift_card_has_been_removed": "La Gift Card ha sido borrada",
         "gift_card_savings_notice": "Después de {{ gift_card_amount }} en Gift Cards",
         "gift_card_ending": "Gift Card que termina en {{ last_characters }}",
-        "discount_and_gift_card_savings_notice": "Después de {{ discount_amount }} de descuento y {{ gift_card_amount }} en Gift Cards"
+        "discount_and_gift_card_savings_notice": "Después de {{ discount_amount }} de descuento y {{ gift_card_amount }} en Gift Cards",
+        "cart_does_not_meet_discount_requirements_notice": "El código de descuento <strong style=\"text-transform:uppercase\">{{ code }}<\/strong> no es válido para los productos de tu carrito"
       },
       "contact": {
         "company_label": "RUT",
@@ -547,6 +548,9 @@
         "unsubscribe": {
           "title": "Has cancelado tu suscripción "
         }
+      },
+      "stock": {
+        "items_unavailable_notice": "Algunos productos no se encuentran disponibles. Se ha actualizado la cesta de compra."
       }
     },
     "addresses": {
