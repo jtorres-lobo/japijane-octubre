@@ -2,7 +2,7 @@
   "404": {
     "general": {
       "title": "Página no encontrada",
-      "text": "La página que buscas no existe.",
+      "text": "La página que estaba buscando no existe.",
       "continue_shopping": "Seguir comprando"
     }
   },
@@ -149,24 +149,24 @@
   },
   "blog": {
     "general": {
-      "empty_blog": "Lo sentimos, no hay productos publicados para este blog",
+      "empty_blog": "Lo sentimos, no hay artículos publicados para este blog",
       "read_more": "Leer ahora",
       "see_more": "Ver más"
     },
     "article": {
       "filed_in": "Archivado en:",
-      "previous_article": "Producto anterior",
-      "next_article": "Producto siguiente"
+      "previous_article": "Artículo anterior",
+      "next_article": "Artículo siguiente"
     },
     "comments": {
       "title": "Comentarios",
-      "name": "Tu nombre",
+      "name": "Su nombre",
       "email": "Correo electrónico",
       "message": "Mensaje",
       "submit": "Publicar comentario",
       "moderated": "Los comentarios deben ser aprobados antes de aparecer",
-      "success": "¡Muy bien! Tu comentario se publicó correctamente.",
-      "success_moderated": "¡Muy bien! Recibimos tu comentario y será revisado en breve.",
+      "success": "¡Muy bien! Su comentario se publicó correctamente.",
+      "success_moderated": "¡Muy bien! Recibimos su comentario y será revisado en breve.",
       "author_html": "{{ author }} - {{ date }}",
       "leave_comment": "Dejar un comentario",
       "required_fields": "* Campos requeridos"
@@ -174,7 +174,7 @@
   },
   "cart": {
     "general": {
-      "your_cart": "Tu carrito",
+      "your_cart": "Su carrito",
       "continue_shopping": "Seguir comprando",
       "price": "Precio",
       "quantity": "Cant.",
@@ -184,8 +184,8 @@
       "special_instructions": "Instrucciones especiales",
       "shipping_at_checkout": "El envío se calculara en el siguiente paso",
       "taxes_at_checkout": "Impuestos calculados en el proceso de pago",
-      "cart_empty": "Tu carrito está vacío",
-      "stock_limit": "Solo puede tener {{ quantity }} {{ title }} en tu carrito."
+      "cart_empty": "Su carrito está vacío",
+      "stock_limit": "Solo puede tener {{ quantity }} {{ title }} en su carrito."
     },
     "shipping": {
       "calculate_shipping": "Calcular el envío",
@@ -198,9 +198,9 @@
       "one_rate": "Encontramos una tarifa de envío disponible para {{ address }}.",
       "no_rates": "Lo sentimos, no hacemos envíos a este destino.",
       "rate_value": "{{ rate_title }} en {{ rate }}",
-      "no_shipping_required": "Tu carrito no necesita envío.",
+      "no_shipping_required": "Su carrito no necesita envío.",
       "shipment_too_heavy": "Lo sentimos, pero este envío es demasiado pesado para enviarse.",
-      "error_general": "Lo sentimos, no podemos calcular tu envío en este momento."
+      "error_general": "Lo sentimos, no podemos calcular su envío en este momento."
     }
   },
   "contact": {
@@ -291,7 +291,7 @@
       "shipping": "Envío ({{ shipping_method }})",
       "tax": "Impuesto ({{ title }} {{ rate }}%)",
       "product": "Producto",
-      "item": "Producto",
+      "item": "Artículo",
       "sku": "SKU",
       "price": "Precio",
       "quantity": "Cantidad",
@@ -302,16 +302,16 @@
       "additional_notes": "Otras notas"
     },
     "recover_password": {
-      "title": "Restablece tu contraseña",
+      "title": "Restablecer su contraseña",
       "cancel": "Cancelar",
-      "subtitle": "Te enviaremos un correo electrónico para restablecer tu contraseña.",
+      "subtitle": "Le enviaremos un correo electrónico para restablecer su contraseña.",
       "success": "Le enviamos un correo electrónico con un enlace para actualizar su contraseña."
     },
     "register": {
       "title": "Crear cuenta",
       "submit": "Crear",
       "returning_customer": "¿Cliente registrado?",
-      "success": "Le enviamos un correo electrónico, haga clic en el enlace incluido para verificar tu dirección de correo electrónico."
+      "success": "Le enviamos un correo electrónico, haga clic en el enlace incluido para verificar su dirección de correo electrónico."
     },
     "reset_password": {
       "title": "Restablecer contraseña",
@@ -339,7 +339,7 @@
   },
   "password": {
     "general": {
-      "title": "Próximo Lanzamiento"
+      "title": "Abrirá pronto"
     },
     "password_entry": {
       "title": "Ingrese a la tienda utilizando la contraseña",
@@ -349,7 +349,7 @@
       "log_in": "Ingrese aquí."
     },
     "mailing_list": {
-      "your_email": "Tu correo electrónico",
+      "your_email": "Su correo electrónico",
       "submit": "Enviar"
     },
     "social": {
@@ -376,7 +376,7 @@
     },
     "no_results": {
       "empty": "Esta colección está vacía",
-      "tags_empty": "No hay productos que coincidan con tu búsqueda"
+      "tags_empty": "No hay productos que coincidan con su búsqueda"
     }
   },
   "product": {
@@ -430,7 +430,7 @@
       "form_title": "Notificarme cuando vuelva a estar disponible",
       "submit": "Envíame un correo electrónico cuando esté disponible",
       "message": "Notifíqueme cuando {{product}} esté disponible - {{url}}",
-      "success": "Gracias. Tu notificación ha sido registrada.",
+      "success": "Gracias. Su notificación ha sido registrada.",
       "error": "Se requiere una dirección de correo electrónico válida."
     },
     "media": {
@@ -439,7 +439,7 @@
   },
   "add_to_cart_banner": {
     "general": {
-      "product_added": "Añadido a tu carrito:",
+      "product_added": "Añadido a su carrito:",
       "sub_total": "Subtotal del carrito",
       "view_cart_html": "Ver carrito ({{ count }})",
       "checkout": "Terminar Pedido"
@@ -472,7 +472,7 @@
   },
   "onboarding": {
     "article": {
-      "title": "Título del Producto",
+      "title": "Título del artículo",
       "author_name": "Nombre del autor"
     },
     "collection": {
@@ -493,7 +493,7 @@
     },
     "twitter": {
       "title": "Cuenta de Twitter",
-      "tweet_html": "¡Conecte su cuenta de Twitter para atraer clientes dentro y fuera de tu sitio!",
+      "tweet_html": "¡Conecte su cuenta de Twitter para atraer clientes dentro y fuera de su sitio!",
       "username": "nombre de usuario",
       "time": "Hace 8 horas"
     }
@@ -518,9 +518,7 @@
         "gift_card_has_been_removed": "La Gift Card ha sido borrada",
         "gift_card_savings_notice": "Después de {{ gift_card_amount }} en Gift Cards",
         "gift_card_ending": "Gift Card que termina en {{ last_characters }}",
-        "discount_and_gift_card_savings_notice": "Después de {{ discount_amount }} de descuento y {{ gift_card_amount }} en Gift Cards",
-        "cart_does_not_meet_discount_requirements_notice": "El código de descuento <strong style=\"text-transform:uppercase\">{{ code }}<\/strong> no es válido para los productos de tu carrito",
-        "scroll_order_summary": "Desplázate para ver más productos"
+        "discount_and_gift_card_savings_notice": "Después de {{ discount_amount }} de descuento y {{ gift_card_amount }} en Gift Cards"
       },
       "contact": {
         "company_label": "RUT",
@@ -536,9 +534,7 @@
       "field_errors": {
         "address_zip_blank": "Escribe tu RUT aquí",
         "address_company_blank": "Introduce tu RUT",
-        "address_city_blank": "El dato de \"Comuna\" es OBLIGATORIO.",
-        "physical_gift_card_invalid_quantity": "Las líneas de productos de tarjetas de regalo físicas deben tener una cantidad que coincida con la cantidad de códigos de tarjetas de regalo.",
-        "physical_gift_card_duplicate_code": "La línea de producto de la tarjeta de regalo física contiene un código duplicado."
+        "address_city_blank": "El dato de \"Comuna\" es OBLIGATORIO."
       },
       "shipping": {
         "no_rates_for_cart_or_destination_notice": "Seleccionaste un producto sin stock para despacho, por favor revisa tu carrito.",
@@ -546,48 +542,6 @@
       },
       "delivery_options": {
         "pick_up_in_twenty_four_hours": "Normalmente listo en 24 hrs hábiles"
-      },
-      "marketing": {
-        "unsubscribe": {
-          "title": "Has cancelado tu suscripción "
-        }
-      },
-      "stock": {
-        "items_unavailable_notice": "Algunos productos no se encuentran disponibles. Se ha actualizado la cesta de compra."
-      },
-      "payment": {
-        "mor_disclaimer_html": "Al hacer clic abajo y completar el pedido, aceptas la compra de los productos desde Global-e como comerciante oficial de la transacción, de acuerdo con los <a class=\"link--small\" data-modal=\"true\" data-title-text=\"{{ mor_terms }}\" href=\"{{ terms_href }}\">Términos y condiciones<\/a> y la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"{{ privacy_policy }}\" href=\"{{ policy_href }}\">Política de privacidad<\/a> de Global-e. Global-e es un proveedor internacional de servicios de logística de {{ shop_name }}.",
-        "purchase_options_agreement_label": "Entiendo que uno o más productos de mi carrito son una compra diferida o recurrente. Al continuar, acepto la {{ cancellation_policy_label }} y autorizo a realizar cargos en mi forma de pago según los precios, la frecuencia y las fechas indicadas en esta página hasta que se prepare mi pedido o lo cancele, si está permitido."
-      },
-      "payment_errors": {
-        "subscription_agreement_blank": "Para comprar una suscripción, debes guardar tus datos de pago. Para continuar, confirma que estás de acuerdo o elimina los productos de suscripción de tu pedido."
-      },
-      "shipping_errors": {
-        "shipping_method_not_available": "Tu carrito se ha actualizado y los productos que agregaste no pueden enviarse a tu dirección. Elimina los artículos para completar tu pedido.",
-        "shipping_method_not_available_generic": {
-          "other": "Algunos productos en tu carrito no se pueden enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo.",
-          "many": "Algunos productos en tu carrito no se pueden enviar a la dirección que indicaste. Revisa la dirección para garantizar que todos los campos se han llenado correctamente e intenta de nuevo."
-        },
-        "shipping_method_not_available_updated": {
-          "one": "El producto que agregaste no se puede enviar a tu ubicación. Elimínalo para completar el pago, o ponte en contacto con la tienda.",
-          "other": "Uno o más productos que agregaste no se pueden enviar a tu ubicación. Elimínalos para completar el pago, o ponte en contacto con la tienda.",
-          "many": "Uno o más productos que agregaste no se pueden enviar a tu ubicación. Elimínalos para completar el pago, o ponte en contacto con la tienda."
-        }
-      },
-      "thank_you": {
-        "re-order": "Pedir de nuevo los mismos productos",
-        "unfulfilled_items_description": "Actualmente estamos preparando estos productos para el envío.",
-        "fulfillment": {
-          "fulfilled_table_title": "Productos en este envío",
-          "unfulfilled_table_title": "Productos en preparación "
-        }
-      },
-      "open_graph_meta_tag": {
-        "title_with_products": {
-          "one": "Comprar {{ product_name }} y {{ count }} producto más",
-          "other": "Comprar {{ product_name }} y {{ count }} producto más",
-          "many": "Comprar {{ product_name }} y {{ count }} producto más"
-        }
       }
     },
     "addresses": {
@@ -601,24 +555,6 @@
         "value": {
           "in_stock": "En Stock"
         }
-      }
-    },
-    "notices": {
-      "order": {
-        "cancel_reason": {
-          "inventory": "producto no disponibles"
-        }
-      },
-      "cart": {
-        "too_many_line_items_error": "El carrito no puede contener más de {{ max }} productos.",
-        "stock_problems_html": "Uno o más productos ya no están disponibles. Hemos actualizado tu <a href='{{ link }}'>carrito<\/a>.",
-        "items_changed": "Se han cambiado uno o más productos",
-        "product_sold_out": "El producto '{{ name }}' ya está agotado.",
-        "digital_product_not_available_for_company_locations": "Este producto no se puede agregar a un pedido B2B"
-      },
-      "tags": {
-        "add_articles": "Refinar búsqueda a los productos que también tienen la etiqueta {{ tag }}",
-        "remove_articles": "Ampliar búsqueda a los productos que no están etiquetados con {{ tag }}"
       }
     }
   },
@@ -744,39 +680,6 @@
         "placeholder": "Correo Electrónico",
         "submit": "Suscribir!",
         "success": "Gracias por suscribirte 💕"
-      }
-    }
-  },
-  "customer_accounts": {
-    "B2B": {
-      "location_selection": {
-        "description": "Si ya tienes productos en el carrito, el cambio de sucursal puede afectar a los precios y las cantidades del carrito."
-      }
-    },
-    "orders": {
-      "order_list": {
-        "column_headers": {
-          "items": "productos"
-        },
-        "items": {
-          "one": "{{count}} producto",
-          "other": "{{count}} producto",
-          "many": "{{count}} producto"
-        }
-      },
-      "order_status": {
-        "preparing_for_shipping_description": "Estos productos se están preparando para su envío.",
-        "ready_for_pickup_description": "Estos productos están listos para retiro",
-        "picked_up_description": "Estos productos se retiraron"
-      }
-    },
-    "order_details": {
-      "hide_items": "Ocultar productos",
-      "show_items": "Mostrar productos",
-      "summary_list_title_accessibility_label": "Productos del pedido",
-      "pagination": {
-        "load_more_accessibility_label": "Cargar más productos",
-        "loading_accessibility_label": "Cargando Productos"
       }
     }
   }
