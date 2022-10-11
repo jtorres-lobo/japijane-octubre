@@ -11,9 +11,7 @@
   <article class="account-page-content">
     <div class="account-login visible" data-account-login-main>
 
-      <div class="ssw-modal-dialog">
-        <div class="ssw-modal-content">
-          <div class="ssw-modal-body">
+          <div style="display: flex; justify-content: center; gap: .5rem;" class="ssw-modal-body">
             <div class="login-failed"></div>
             <div class="ssw-socialconnect">
               {% capture ssw_social_buttons %}
@@ -24,9 +22,7 @@
               {% endunless %}
             </div>
           </div>
-        </div>
-      </div>
-      
+
       {% form 'customer_login' %}
 
         {% if form.errors != blank %}
