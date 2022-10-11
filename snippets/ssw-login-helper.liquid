@@ -115,7 +115,14 @@
             {{ ssw_customer_login }}
           {% endunless %}
           <div class="login-failed"></div>
-
+          <div class="ssw-socialconnect">
+            {% capture ssw_social_buttons %}
+              {% render 'ssw-social-buttons' %}
+            {% endcapture %}
+            {% unless ssw_social_buttons contains 'Liquid error' %}
+              {{ ssw_social_buttons }}
+            {% endunless %}
+          </div>
           <div class="ssw-login-loading">
             <span class="ssw-spin ssw-loader"></span>
           </div>
