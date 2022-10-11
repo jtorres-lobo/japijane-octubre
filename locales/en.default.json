@@ -185,7 +185,8 @@
       "shipping_at_checkout": "Shipping & taxes calculated at checkout",
       "taxes_at_checkout": "Taxes calculated at checkout",
       "cart_empty": "Your cart is empty",
-      "stock_limit": "You can only have {{ quantity }} {{ title }} in your cart."
+      "stock_limit": "You can only have {{ quantity }} {{ title }} in your cart.",
+      "taxes_included_and_shipping_policy_html": "El envío se calculara en el siguiente paso"
     },
     "shipping": {
       "calculate_shipping": "Calculate Shipping",
