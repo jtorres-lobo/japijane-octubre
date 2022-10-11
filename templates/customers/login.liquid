@@ -10,17 +10,23 @@
 
   <article class="account-page-content">
     <div class="account-login visible" data-account-login-main>
-      <div class="ssw-modal-body">
-        <div class="login-failed"></div>
-        <div class="ssw-socialconnect">
-          {% capture ssw_social_buttons %}
-            {% render 'ssw-social-buttons' %}
-          {% endcapture %}
-          {% unless ssw_social_buttons contains 'Liquid error' %}
-            {{ ssw_social_buttons }}
-          {% endunless %}
+
+      <div class="ssw-modal-dialog">
+        <div class="ssw-modal-content">
+          <div class="ssw-modal-body">
+            <div class="login-failed"></div>
+            <div class="ssw-socialconnect">
+              {% capture ssw_social_buttons %}
+                {% render 'ssw-social-buttons' %}
+              {% endcapture %}
+              {% unless ssw_social_buttons contains 'Liquid error' %}
+                {{ ssw_social_buttons }}
+              {% endunless %}
+            </div>
+          </div>
         </div>
       </div>
+      
       {% form 'customer_login' %}
 
         {% if form.errors != blank %}
