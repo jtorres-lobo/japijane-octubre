@@ -3,9 +3,7 @@
   {% assign gwSettings = shop.metafields.ssw['settings'].value %}
 {% endif %}
 <div id="ssw-login-social-icons-widget-wrapper" style="display:none">
-  {% capture the_snippet_social_icons %}
-    {% render 'ssw-widget-social-login' %}
-  {% endcapture %}
+
   {% unless the_snippet_social_icons contains 'Liquid error' %}
     {{ the_snippet_social_icons }}
   {% endunless %}
